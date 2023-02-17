@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "513497006455",
+    "project_id": "phone-firebase-d0cc2",
+    "storage_bucket": "phone-firebase-d0cc2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:513497006455:android:0716f06ecdc2834123a172",
+        "android_client_info": {
+          "package_name": "com.example.dartpro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "513497006455-lf0pd55hln95aoakqpbndok0e20bs855.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7lTcWlYwFUVjPx2I1n4CwOxr5bKl9opI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "513497006455-lf0pd55hln95aoakqpbndok0e20bs855.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
