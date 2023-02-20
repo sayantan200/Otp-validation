@@ -106,7 +106,24 @@ class _MyOtptState extends State<MyOtp> {
                         Navigator.pushNamedAndRemoveUntil(
                             context, "home", (route) => false);
                       } catch (e) {
-                        print("Wrong Otp");
+                        showDialog(
+                          context: context,
+                          builder: (BuildContext context) {
+                            return AlertDialog(
+                              title: Text("Error"),
+                              content: Text(
+                                  "The OTP you entered is incorrect. Please try again."),
+                              actions: [
+                                ElevatedButton(
+                                  child: Text("OK"),
+                                  onPressed: () {
+                                    Navigator.of(context).pop();
+                                  },
+                                ),
+                              ],
+                            );
+                          },
+                        );
                       }
                     },
                     child: Text('Verify Phone Number'),
